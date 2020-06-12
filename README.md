@@ -22,3 +22,5 @@ CREDIT: LSClient class takes many refrences from
 
     - IG lightstreamer example for python: https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-python
     - IG trade: https://github.com/maroxe/igtrade
+
+![ig_wss](https://user-images.githubusercontent.com/62041906/84468441-2bff3580-acc2-11ea-977f-4dfd7c8eecd4.JPG)
