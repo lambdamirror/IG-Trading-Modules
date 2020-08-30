@@ -182,7 +182,7 @@ class Client:
         if bool(transactionType): querystring['transactionType'] = transactionType
         if bool(startTime): querystring['from'] = ig_time_format(startTime, encoded=False)
         if bool(endTime): querystring['to'] = ig_time_format(endTime, encoded=False)
-        if bool(period): querystring['maxSpanSeconds '] = period
+        if bool(period): querystring['maxSpanSeconds'] = period
         if bool(pageSize): querystring['pageSize'] = pageSize
         if bool(pageNum): querystring['pageNumber'] = pageNum
         req += urllib.parse.urlencode(querystring)
